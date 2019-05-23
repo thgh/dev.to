@@ -631,7 +631,7 @@ a.header-link {
       @include themeable(background, theme-background, $lightest-gray);
       padding: 1px 5px 0px;
       border-radius: 2px;
-      color: #333842;
+      @include themeable(color, theme-subtle-border, #333842);
       font-size: 0.8em;
       display: inline-block;
       vertical-align: 0.1em;
